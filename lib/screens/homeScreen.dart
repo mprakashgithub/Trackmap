@@ -1,5 +1,3 @@
-import 'package:cartrack/common/tabBarView.dart';
-import 'package:cartrack/common/tabBarView.dart';
 import 'package:cartrack/screens/carMap.dart';
 import 'package:flutter/material.dart';
 

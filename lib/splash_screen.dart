@@ -1,5 +1,4 @@
-import 'package:cartrack/screens/homeScreen.dart';
-import 'package:cartrack/screens/signUpPage.dart';
+import 'package:cartrack/screens/login.dart';
 import 'package:flutter/material.dart';
 import 'package:splashscreen/splashscreen.dart';
 
@@ -13,7 +12,7 @@ class _SplashScreenPageState extends State<SplashScreenPage> {
   Widget build(BuildContext context) {
     return  SplashScreen(
       seconds: 5,
-      navigateAfterSeconds: new DashboardScreen(),// after splash screen page navigate
+      navigateAfterSeconds: new LoginScreen(),// after splash screen page navigate
       title: new Text('Welcome ! Please Wait a moment',
         style: new TextStyle(
           fontWeight: FontWeight.bold,
